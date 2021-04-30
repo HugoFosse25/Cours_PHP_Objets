@@ -6,6 +6,11 @@
         <?php
             include 'Personnage.php';
             include 'Magicien.php';
+            $localhost="localhost";
+            $hostalwaysdata="mysql-hugo2502.alwaysdata.net";
+            $BDDLocal="Personnages";
+            $BDDAlwaysData="hugo2502_personnages";
+    
             $pdo = new PDO('mysql:host=mysql-hugo2502.alwaysdata.net;dbname=hugo2502_personnages', 'hugo2502', '*Root1234');
             $Perso1 = new Personnage(1 ,$pdo);
             $Mage1 = new Magicien(2 ,$pdo);
