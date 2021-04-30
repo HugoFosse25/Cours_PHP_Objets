@@ -6,7 +6,7 @@
         <?php
             include 'Personnage.php';
             include 'Magicien.php';
-            $pdo = new PDO('mysql:host=localhost;dbname=Personnages', 'root', 'root');
+            $pdo = new PDO('mysql:host=localhost;dbname=hugo2502_Personnages', 'hugo2502', '*Root1234');
             $Perso1 = new Personnage(1 ,$pdo);
             $Mage1 = new Magicien(2 ,$pdo);
             $Mage2 = new Magicien(3 ,$pdo);
