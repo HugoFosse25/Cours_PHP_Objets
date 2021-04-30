@@ -12,8 +12,8 @@
             $this->_nom=$tab["nom"];
             $this->_prenom=$tab["prenom"];
         }
-        public function PresenteToi(){
-            echo 'Je suis '.$this->_nom." ".$this->_prenom." ";
+        public function presenteToi(){
+            return 'Je suis '.$this->_nom." ".$this->_prenom." ";
         }
     }
 ?>
